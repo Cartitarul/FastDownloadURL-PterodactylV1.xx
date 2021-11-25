@@ -59,4 +59,4 @@ When using the SSL configuration you MUST create SSL certificates, otherwise you
 
 # Done
 * The FastDownload url shoud look something like this http(s)://DNS.DOMAIN.COM/SERVER_UUID/csgo
-* [Dr3Amer3r](https://github.com/Dr3Ame3r/pterodactyl_fastdl) - Pterodactyl FastDL Version v1
+* [Dr3Amer3r](https://github.com/Dr3Ame3r/pterodactyl_fastdl) - Credits Pterodactyl FastDL Version v1
