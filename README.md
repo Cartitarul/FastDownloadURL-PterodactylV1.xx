@@ -10,7 +10,7 @@ Follow these 3 simple steps to install this module.
 ## Step 1 (Apache or NGINX Configuration ):
 
 ### Apache:
-  1. Copy your apache file "FastDLL-Apache.conf" or "FastDLL-ApacheSSL.conf" in etc/apache2/sites-available or /etc/httpd/conf.d/ (If on CentOS)
+  1. Copy your apache file "FastDLL-Apache.conf" or "FastDLL-ApacheSSL.conf" in `etc/apache2/sites-available` or `/etc/httpd/conf.d/` (If on CentOS)
   2. Edit the DNS.DOMANIN.COM from the file to your Fully Qualified Domain Name (FQDN), you can find it in your node settings.
 
 IF YOU TRY USING SSL
@@ -58,5 +58,5 @@ When using the SSL configuration you MUST create SSL certificates, otherwise you
 
 
 # Done
-The FastDownload url shoud look something like this http(s)://DNS.DOMAIN.COM/SERVER_UUID/csgo
-[Dr3Amer3r](https://github.com/Dr3Ame3r/pterodactyl_fastdl) - Pterodactyl FastDL Version v1
+* The FastDownload url shoud look something like this http(s)://DNS.DOMAIN.COM/SERVER_UUID/csgo
+* [Dr3Amer3r](https://github.com/Dr3Ame3r/pterodactyl_fastdl) - Pterodactyl FastDL Version v1
