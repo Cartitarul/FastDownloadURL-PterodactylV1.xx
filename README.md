@@ -46,8 +46,8 @@ When using the SSL configuration you MUST create SSL certificates, otherwise you
         "parser": "file",
         "find": {
             "sv_downloadurl": "sv_downloadurl \"http://{{env.P_SERVER_LOCATION}}/{{env.P_SERVER_UUID}}/csgo/\"",
-            "sv_allowupload": "sv_allowupload \"0\""
-            "sv_allowdownload": "sv_allowdownload \"1\"",
+            "sv_allowupload": "sv_allowupload \"0\"",
+            "sv_allowdownload": "sv_allowdownload \"1\""
         }
     }
 }
