@@ -40,12 +40,13 @@ When using the SSL configuration you MUST create SSL certificates, otherwise you
  * ``` chmod 755 /var/lib/pterodactyl/volumes/SERVER_UUID ``` Change the UUID to yours
  3. Configure our egg to use a JSON file parser:
  Edit the Configuration Files section from the egg config with the following: (For CSGO) Create a server.cfg file in csgo/cfg if you dont have one
+ Please insert the node Link (yqdn) in *[NODE LINK]* and change http to https if you use SSL for the node subdomain.
  ```
  {
     "csgo/cfg/server.cfg": {
         "parser": "file",
         "find": {
-            "sv_downloadurl": "sv_downloadurl \"http://{{env.P_SERVER_LOCATION}}/{{env.P_SERVER_UUID}}/csgo/\"",
+            "sv_downloadurl": "sv_downloadurl \"http://[NODE LINK]/{{env.P_SERVER_UUID}}/csgo/\"",
             "sv_allowupload": "sv_allowupload \"0\"",
             "sv_allowdownload": "sv_allowdownload \"1\""
         }
@@ -56,6 +57,7 @@ When using the SSL configuration you MUST create SSL certificates, otherwise you
 3. Name your node locations as our **FQDN** so it will act as a link or if you use only one node and onle location you can manualy edit the code and change {{env.P_SERVER_LOCATION}} in to your **FQDN** for example: 
   *   ```"sv_downloadurl": "sv_downloadurl \"http://DNS.DOMAIN.COM/{{env.P_SERVER_UUID}}/csgo/\"",```
 
+4. For further error please contact me.
 
 # Done
 * The FastDownload url shoud look something like this http(s)://DNS.DOMAIN.COM/SERVER_UUID/csgo
